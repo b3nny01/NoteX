@@ -1,0 +1,130 @@
+.new-notebook-modal-background.hidden{
+  /*display*/
+  display: none;
+}
+
+.new-notebook-modal-background.shown{
+  /*background*/
+  backdrop-filter: blur(10px);
+  
+  /*display*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*position*/
+  position:fixed;
+  top:0px;
+  left: 0px;
+
+  /*size*/
+  width: 100vw;
+  height: 100vh;
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal{
+  /*background*/
+  background-color: #003049;
+  /*display*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /*position*/
+  position: relative;
+
+  /*size*/
+  width: 500px;
+  height: 500px;
+
+  /*borders and spaces*/
+  border-radius: 10px;
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .icon-button.cross{
+  /*position*/
+  position: absolute;
+  top:3px;
+  left: 3px;
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .title{
+  /*text*/
+  color:#F77F00;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  /*border and spaces*/
+  margin:20px 0 20px;
+
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form{
+  /*display*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: scroll;
+
+  /*size*/
+  width: 400px;
+  height: 400px;
+
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form::-webkit-scrollbar{
+  /*display*/
+  display: none;
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form > .tag-list-input{
+  /*size*/
+  height: 280px;
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form > input[type="text"]{
+ 
+  /*size*/
+  height:30px;
+  width: 100%;
+
+  /*text*/
+  font-size: 1em;
+  text-align: center;
+  text-indent: 35px;
+
+  /*borders and spaces*/
+  margin: 10px 0px 10px 0px;
+  border-radius: 3px;
+  border: none;
+  padding: 0px;
+  outline: solid black 1px;
+  outline-offset: -1px;
+}
+
+.new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form > input[type="submit"]{
+  /*background*/
+  background-color: #F77F00;
+
+  /*text*/
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-indent: 35px;
+
+  /*size*/
+  height:30px;
+  width: 100%;
+
+  /*borders and spaces*/
+  margin: 10px 0px 10px 0px;
+  border-radius: 3px;
+  border: none;
+  padding: 0px;
+  outline: solid black 1px;
+  outline-offset: -1px;
+}
+
+

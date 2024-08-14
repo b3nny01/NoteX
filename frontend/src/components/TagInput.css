@@ -1,0 +1,56 @@
+.tag-input{
+    /*display*/
+    display: flex;
+    flex-direction: row;
+
+    /*size*/
+    width: 100%;
+    height: 30px;
+}
+
+.tag-input > input{
+
+    /*size*/
+    height: 30px;
+
+    /*text*/
+    font-size: 1em;
+    text-align: center;
+    border-style:solid;
+
+    /*border and spaces*/
+    border: none;
+    padding: none;
+    outline: solid black 1px;
+    outline-offset: -1px;
+}
+
+.tag-input > .name{
+    /*background*/
+    background-color: #EAE2B7;
+
+    /*size*/
+    width: 50%;
+
+    /*borders and spaces*/
+    border-radius: 3px 0px 0px 3px;
+
+    /*text*/
+    color:#F77F00;
+    font-weight: bold;
+}
+
+
+
+.tag-input > .name::placeholder{
+    /*text*/
+    color: #F77F00;
+}
+
+.tag-input > .value{
+    /*size*/
+    width: 50%;
+
+    /*borders and spaces*/
+    border-radius: 0px 3px 3px 0px
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="domain.SignedUser" table="SIGNED_USERS">
+		<id name="id" column="Id">
+			<generator class="identity" />
+		</id>
+		<property name="username" column="Username" />
+		<property name="passwordHash" column="PasswordHash" />
+		<property name="salt" column="Salt" />
+		<property name="hashAlgorithm" column="HashAlgorithm" />
+		<property name="state" column="UserState" type="domain.UserStateHibernateCustomType"/>
+		<property name="score" column="Score"/>
+		<bag name="notebooks" table="NOTEBOOKS"
+			fetch="select" cascade="all" inverse="true" lazy="false">
+			<key>
+				<column name="UserId" />
+			</key>
+			<one-to-many class="domain.Notebook" />
+		</bag>
+		<bag name="reports" table="REPORTS" fetch="select"
+			cascade="all" inverse="true" lazy="false">
+			<key>
+				<column name="ReportedUserId" />
+			</key>
+			<one-to-many class="domain.Report" />
+		</bag>
+	</class>
+</hibernate-mapping>

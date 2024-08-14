@@ -1,0 +1,120 @@
+.nav-bar-div{
+    /*display*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: relative;
+
+    /*size*/
+    width: auto;
+    height: auto;
+
+    /*borders and spaces*/
+    border-radius: 3px;
+
+}
+
+.nav-bar-div > .option{
+    /*size*/
+    width: 75px;
+    height: 30px;
+
+    /*borders and spaces*/
+    border-right: 1px solid #F77F00;
+
+    /*text*/
+    color: #F77F00;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-bar-div > .option:hover{
+    /*text*/
+    text-decoration: underline;
+}
+
+.nav-bar-div > .hamburger-label > input{
+    /*display*/
+    display: none;
+}
+
+.nav-bar-div > .hamburger-label > .icon-div{
+    /*size*/
+    width: 30px;
+    height: 30px;
+
+    margin: auto;
+}
+
+.nav-bar-div > .hamburger-label > .icon-div > img{
+    /*size*/
+    width: 25px;
+    height: 25px;
+}
+
+.nav-bar-div > .hamburger-label > .icon-div:hover{
+    /*backgorund*/
+    background-color: #EAE2B7;
+}
+
+.nav-bar-div > .hamburger-label:has( > input:checked) > .icon-div{
+    /*backgorund*/
+    background-color: #EAE2B7;
+}
+
+.nav-bar-div >  .hamburger-label > .pages-div{
+    /*background*/
+    background-color: #EAE2B7;
+
+    /*display*/
+    display: none;
+    flex-direction: column;
+
+    /*position*/
+    position: absolute;
+    right:0px;
+    top:35px;
+
+    /*size*/
+    width: 220px;
+    border: 1px solid #F77F00;
+    border-radius: 3px;
+}
+
+.nav-bar-div >  .hamburger-label > input:checked ~ .pages-div{
+    /*display*/
+    display: flex;
+}
+
+.nav-bar-div >  .hamburger-label > .pages-div > .page-link{
+    /*size*/
+    width: 200px;
+    height: 30px;
+
+    /*border and spaces*/
+    border: none;
+    padding: 10px;
+
+    /*text*/
+    color: #F77F00;
+    text-align: start;
+}
+
+
+.nav-bar-div >  .hamburger-label > .pages-div > .page-link:hover{
+    /*background*/
+    background-color: #FCBF49;
+    
+    /*text*/
+    text-decoration: underline;
+}
+
+.nav-bar-div >  .hamburger-label > .pages-div > .page-link.current{
+    /*background*/
+    background-color: #FCBF49;
+
+    /*text*/
+    text-decoration: underline;
+}

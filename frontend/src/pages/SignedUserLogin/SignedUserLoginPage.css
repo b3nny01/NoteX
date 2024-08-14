@@ -1,0 +1,27 @@
+.signed-user-login-page{
+    background-color: #003049;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*size*/
+    width: 100vw;
+    height: 100vh;
+}
+
+.signed-user-login-page > .nav-bar-div{
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+
+.signed-user-login-page > .logo{
+    width: 500px;
+    margin: 10px;
+}
+
+.signed-user-login-page > .signed-user-login-feature{
+    margin:10px;
+    width: 500px;
+    height: 400px;
+}

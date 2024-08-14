@@ -1,0 +1,85 @@
+.send-review-feature{
+    background-color: field;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.send-review-feature > .title{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+}
+
+.send-review-feature > .send-review-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.send-review-feature > .send-review-form > .id-nota-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    min-width:  80%;
+    max-width: 100%;
+}
+
+.send-review-feature > .send-review-form > .id-nota-div > input{
+    max-width: 30%;
+    height:30px;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+    padding: 0px;
+    border: none;
+}
+
+.send-review-feature > .send-review-form > .id-nota-div > label{
+    max-width: 3%;
+    height:30px;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 3px 10px 3px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.send-review-feature > .send-review-form > input{
+    height:30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 0px;
+    border: none;
+}
+
+.send-review-feature > .send-review-form > input[type="submit"]{
+    
+    background-color: #F77F00;
+    height:30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 0px;
+    border: none;
+    color: field;
+}
+
+.send-review-feature > .send-review-result-div{
+    width: 80%;
+    margin: 20px 0px 20px 0px;
+}

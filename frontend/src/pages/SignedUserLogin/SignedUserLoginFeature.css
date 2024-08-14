@@ -1,0 +1,69 @@
+.signed-user-login-feature{
+    background-color: field;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.signed-user-login-feature > .title{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+}
+
+.signed-user-login-feature > .signed-user-login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.signed-user-login-feature > .signed-user-login-form > input[type="text"] , input[type="password"]{
+    height:30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 0px;
+    border: none;
+}
+
+.signed-user-login-feature > .signed-user-login-form > input[type="password"]{
+    height:30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 0px;
+    border: none;
+}
+
+.signed-user-login-feature > .signed-user-login-form > input[type="submit"]{
+    
+    background-color: #F77F00;
+    height:30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 0px;
+    border: none;
+    color: field;
+}
+
+.signed-user-login-feature > .signed-user-login-result-div{
+    width: 80%;
+    margin: 20px 0px 20px 0px;
+}
+
+.signed-user-login-feature > .signed-user-login-result-div > .page-link{
+    color: #F77F00;
+}

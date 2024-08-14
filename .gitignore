@@ -1,0 +1,7 @@
+.vscode
+.gradle
+README.html
+README.pdf
+./backend/build/*
+./frontend/build/*
+

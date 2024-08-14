@@ -1,0 +1,40 @@
+.virtual-desk-page{
+
+    /*size*/
+    width: 100vw;
+    height: 100vh;
+}
+
+.virtual-desk-page > .header-div{
+    background-color: #003049;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.virtual-desk-page > .header-div > .logo{
+    height: 90px;
+    width: fit-content;
+    margin: 0px 30px 0px 30px;
+}
+
+.virtual-desk-page > .header-div > .logo > div{
+    font-size: 2em;
+}
+
+
+.virtual-desk-page > .header-div > .nav-bar-div{
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+
+.virtual-desk-page > .content-div{
+    background-color: white;
+    /*size*/
+    width: 100vw;
+    height: 90vh;
+}
+

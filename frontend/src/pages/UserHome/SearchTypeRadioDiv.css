@@ -1,0 +1,32 @@
+.search-type-radio-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-type-radio-div > .search-type-radio-label > input{
+    display: none;
+}
+
+.search-type-radio-div > .search-type-radio-label {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0px;
+    outline: solid black 1px;
+    outline-offset: -1px;
+    border-radius: 3px;
+
+}
+
+.search-type-radio-div > .search-type-radio-label:hover{
+    background-color: #EAE2B7;;
+}
+
+.search-type-radio-div > .search-type-radio-label:has(input:checked){
+    background-color: #EAE2B7;;
+}

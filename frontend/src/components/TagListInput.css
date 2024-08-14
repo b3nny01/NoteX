@@ -1,0 +1,30 @@
+.tag-list-input{
+    /*display*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+
+.tag-list-input::-webkit-scrollbar{
+    display: none;
+}
+
+.tag-list-input > .controls{
+    /*display*/
+    display: flex;
+    flex-direction: row;
+
+    /*borders and spaces*/
+    margin-bottom: 5px;
+}
+
+.tag-list-input > .tag-input{
+    /*size*/
+    width: 100%;
+    
+    /*borders and spaces*/
+    margin: 5px 0px 5px 0px;
+}
+

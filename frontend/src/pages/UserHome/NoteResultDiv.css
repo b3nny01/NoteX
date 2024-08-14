@@ -1,0 +1,17 @@
+.note.result-div > .first-line .download.icon-div{
+    /*position*/
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+
+.note.result-div > .first-line .download.icon-div:hover{
+    /*background*/
+    background-color: #EAE2B7;
+}
+
+.note.result-div > .first-line .review.icon-button{
+    position: absolute;
+    top:0px;
+    right: 105px;
+}

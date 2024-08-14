@@ -1,0 +1,17 @@
+.reviews-div{
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 70%;
+}
+
+.reviews-div::-webkit-scrollbar{
+    display: none;
+}
+
+.reviews-div > .review-div{
+    margin-bottom: 10px;
+}

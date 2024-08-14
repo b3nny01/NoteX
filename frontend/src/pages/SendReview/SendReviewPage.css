@@ -1,0 +1,27 @@
+.send-review-page{
+    background-color: #003049;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*size*/
+    width: 100vw;
+    height: 100vh;
+}
+
+.send-review-page > .nav-bar-div{
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+
+.send-review-page > .logo{
+    width: 500px;
+    margin: 10px;
+}
+
+.send-review-page > .send-review-feature{
+    margin:10px;
+    width: 500px;
+    height: 400px;
+}

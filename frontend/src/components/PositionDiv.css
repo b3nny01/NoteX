@@ -1,0 +1,49 @@
+.position-div{
+    /*display*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    /*size*/
+    width: 100%;
+}
+
+.position-div > .step-div{
+    /*display*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /*size*/
+    height:50px;
+
+}
+
+.position-div > .step-div > .name{
+    
+    /*size*/
+    min-width: 180px;
+
+    /*borders and spaces*/
+    border-radius: 10px;
+    margin: 10px;
+
+    /*text*/
+    text-align:center;
+    font-size: 1.5em;
+    font-style: bold;
+    color: #F77F00;
+}
+.position-div > .step-div > .name:hover{
+    /*text*/
+    text-decoration: underline;
+}
+
+.position-div > .step-div > .icon{
+    /*size*/
+    width: 30px;
+    height: 30px;
+    transform: rotate(270deg);
+}

@@ -1,0 +1,19 @@
+.score-div{
+    /*display*/
+    display: flex;
+    flex-direction: row;
+    /*size*/
+    width: 75px;
+    height: 30px;
+
+}
+.score-div > .icon-div{
+    /*size*/
+    width: 15px;
+    height:30px;
+}
+.score-div > .icon-div > .icon-img{
+    /*size*/
+    width: 15px;
+    height: 15px;
+}

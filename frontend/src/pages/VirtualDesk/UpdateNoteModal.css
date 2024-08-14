@@ -1,0 +1,146 @@
+.update-note-modal-background.hidden{
+  /*display*/
+  display: none;
+}
+
+.update-note-modal-background.shown{
+  /*background*/
+  backdrop-filter: blur(10px);
+  
+  /*display*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*position*/
+  position:fixed;
+  top:0px;
+  left: 0px;
+
+  /*size*/
+  width: 100vw;
+  height: 100vh;
+}
+
+.update-note-modal-background.shown > .update-note-modal{
+  /*background*/
+  background-color: #003049;
+  /*display*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /*position*/
+  position: relative;
+
+  /*size*/
+  width: 500px;
+  height: 500px;
+
+  /*borders and spaces*/
+  border-radius: 10px;
+}
+
+.update-note-modal-background.shown > .update-note-modal > .icon-button.cross{
+  /*position*/
+  position: absolute;
+  top:3px;
+  left: 3px;
+}
+
+.update-note-modal-background.shown > .update-note-modal > .title{
+  /*text*/
+  color:#F77F00;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  /*border and spaces*/
+  margin:20px 0 20px;
+
+}
+
+.update-note-modal-background.shown > .update-note-modal > .update-note-form{
+  /*display*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: scroll;
+
+  /*size*/
+  width: 400px;
+  height: 400px;
+
+}
+
+.update-note-modal-background.shown > .update-note-modal > .update-note-form::-webkit-scrollbar{
+  /*display*/
+  display: none;
+}
+
+.update-note-modal-background.shown > .update-note-modal > .update-note-form > .tag-list-input{
+  /*size*/
+  height: 280px;
+}
+
+.update-note-modal-background.shown > .update-note-modal > .update-note-form > input[type="text"]{
+ 
+  /*size*/
+  height:30px;
+  width: 100%;
+
+  /*text*/
+  font-size: 1em;
+  text-align: center;
+  text-indent: 35px;
+
+  /*borders and spaces*/
+  margin: 10px 0px 10px 0px;
+  border-radius: 3px;
+  border: none;
+  padding: 0px;
+  outline: solid black 1px;
+  outline-offset: -1px;
+}
+
+.update-note-modal-background.shown > .update-note-modal > .update-note-form > input[type="submit"]{
+  /*background*/
+  background-color: #F77F00;
+
+  /*text*/
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-indent: 35px;
+
+  /*size*/
+  height:30px;
+  width: 100%;
+
+  /*borders and spaces*/
+  margin: 10px 0px 10px 0px;
+  border-radius: 3px;
+  border: none;
+  padding: 0px;
+  outline: solid black 1px;
+  outline-offset: -1px;
+}
+
+.update-note-modal-background.shown > .update-note-modal > .update-note-form > input[type="file"]{
+
+  /*text*/
+  color: #F77F00;;
+  font-size: 1em;
+  font-weight: bold;
+  text-indent: 35px;
+
+  /*size*/
+  height:30px;
+  width: 100%;
+
+  /*borders and spaces*/
+  margin: 10px 0px 10px 0px;
+}
+
+

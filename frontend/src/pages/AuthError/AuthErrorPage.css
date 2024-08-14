@@ -1,0 +1,47 @@
+.auth-error-page{
+    background-color: #003049;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*size*/
+    width: 100vw;
+    height: 100vh;
+}
+
+.auth-error-page > .logo{
+    width: 500px;
+    margin: 10px;
+}
+
+.auth-error-page > .message-div{
+    background-color: field;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.auth-error-page > .message-div > .icon-div{
+    width: 100px;
+    height: 100px;
+}
+
+.auth-error-page > .message-div > .icon-div > .icon-img{
+    width: 80px;
+    height: auto;
+}
+
+.auth-error-page > .message-div > .message{
+    width: 80%;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.auth-error-page > .message-div > .message > .page-link{
+    color: #F77F00;
+}

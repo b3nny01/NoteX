@@ -1,0 +1,61 @@
+.reviews-modal-background.hidden{
+  /*display*/
+  display: none;
+}
+
+.reviews-modal-background.shown{
+  /*background*/
+  backdrop-filter: blur(10px);
+  
+  /*display*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*position*/
+  position:fixed;
+  top:0px;
+  left: 0px;
+
+  /*size*/
+  width: 100vw;
+  height: 100vh;
+}
+
+.reviews-modal-background.shown > .reviews-modal{
+  /*background*/
+  background-color: #EAE2B7;
+  /*display*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  /*position*/
+  position: relative;
+
+  /*size*/
+  width: 500px;
+  height: 500px;
+
+  /*borders and spaces*/
+  border-radius: 10px;
+}
+
+.reviews-modal-background.shown > .reviews-modal > .icon-button.cross{
+  /*position*/
+  position: absolute;
+  top:3px;
+  left: 3px;
+}
+
+.reviews-modal-background.shown > .reviews-modal > .title{
+  /*text*/
+  color:#F77F00;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  /*border and spaces*/
+  margin:20px 0 20px;
+
+}

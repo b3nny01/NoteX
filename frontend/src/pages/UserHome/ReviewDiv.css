@@ -1,0 +1,20 @@
+.review-div{
+    background-color: field;
+    width: 80%;
+    height: auto;
+
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.review-div > .first-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.review-div > .first-line > .username{
+    font-size: 20px;
+    padding: 3px;
+    padding-right:10px;
+
+}

@@ -1,0 +1,6 @@
+.notebook.result-div > .first-line > .expand-checkbox{
+    /*position*/
+    position: absolute;
+    top:0px;
+    right: 0px;
+}

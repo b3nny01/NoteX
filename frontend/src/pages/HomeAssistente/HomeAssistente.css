@@ -1,0 +1,53 @@
+.home-amministratore-page{
+
+    /*size*/
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-amministratore-page > .header-div{
+    background-color: #003049;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-amministratore-page > .header-div > .logo{
+    height: 90px;
+    width: fit-content;
+    margin: 0px 30px 0px 30px;
+}
+
+.home-amministratore-page > .header-div > .logo > div{
+    font-size: 2em;
+}
+
+
+.home-amministratore-page > .header-div > .nav-bar-div{
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+
+.home-amministratore-page > .content-div{
+    background-color: white;
+    /*display*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /*size*/
+    width: 100vw;
+    height: 90vh;
+}
+
+
+.home-amministratore-page > .content-div > .segnalazioni-feature{
+    /*size*/
+    width: 40%;
+    aspect-ratio: 1;
+    
+}

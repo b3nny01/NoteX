@@ -1,0 +1,14 @@
+.expand-checkbox > input {
+    /*display*/
+    display: none;
+}
+
+.expand-checkbox > input:checked + .icon-div > .icon-img {
+    /*transformation*/
+    transform: rotate(180deg);
+}
+
+.expand-checkbox > .icon-div:hover{
+    /*background*/
+    background-color: #EAE2B7;
+}

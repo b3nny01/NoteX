@@ -1,0 +1,29 @@
+.icon-button{
+    /*display*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*size*/
+    width: 30px;
+    height: 30px;
+
+    /*borders and spaces*/
+    border-radius: 3px;
+}
+
+.icon-button.default:hover{
+    /*background*/
+    background-color: #EAE2B7;
+}
+
+.icon-button.reverse:hover{
+    /*background*/
+    background-color: whitesmoke;
+}
+
+.icon-button > .icon-img{
+    /*size*/
+    width: 26px;
+    height: auto;
+}
