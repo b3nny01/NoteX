@@ -4,7 +4,8 @@
 
 ## Introduction
 
-NoteX is a web application designed as part of a Software Engineering course. Its goal is to provide a social platform where students can freely share their notes.
+NoteX is a web application designed as part of a Software Engineering course. Its goal is to provide a social platform where students can freely share their notes.<br/>
+A working demo of the frontend is online at [https://b3nny01.github.io/NoteX/](https://b3nny01.github.io/NoteX/)
 
 ## Development Process
 
