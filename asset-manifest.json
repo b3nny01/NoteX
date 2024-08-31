@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NoteX/static/css/main.5cca5850.css",
-    "main.js": "/NoteX/static/js/main.4e6099db.js",
+    "main.js": "/NoteX/static/js/main.1bc35275.js",
     "static/js/453.8ab44547.chunk.js": "/NoteX/static/js/453.8ab44547.chunk.js",
     "static/media/welcomeImage0.jpg": "/NoteX/static/media/welcomeImage0.2ce752c2c2b9e1d6ff20.jpg",
     "static/media/welcomeImage1.jpg": "/NoteX/static/media/welcomeImage1.0b0a7393b41da4553c27.jpg",
@@ -30,11 +30,11 @@
     "static/media/search.svg": "/NoteX/static/media/search.c34dd1ada9336806166b1d2827f4b827.svg",
     "static/media/expand.svg": "/NoteX/static/media/expand.fe9c3a21260ae50b3209f7e65ec4cf88.svg",
     "main.5cca5850.css.map": "/NoteX/static/css/main.5cca5850.css.map",
-    "main.4e6099db.js.map": "/NoteX/static/js/main.4e6099db.js.map",
+    "main.1bc35275.js.map": "/NoteX/static/js/main.1bc35275.js.map",
     "453.8ab44547.chunk.js.map": "/NoteX/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cca5850.css",
-    "static/js/main.4e6099db.js"
+    "static/js/main.1bc35275.js"
   ]
 }
