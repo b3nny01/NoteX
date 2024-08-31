@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/b3nny01.github.io/NoteX/static/css/main.52f10676.css",
-    "main.js": "/b3nny01.github.io/NoteX/static/js/main.20127a35.js",
+    "main.js": "/b3nny01.github.io/NoteX/static/js/main.4a21d32c.js",
     "static/js/453.8ab44547.chunk.js": "/b3nny01.github.io/NoteX/static/js/453.8ab44547.chunk.js",
     "static/media/welcomeImage0.jpg": "/b3nny01.github.io/NoteX/static/media/welcomeImage0.2ce752c2c2b9e1d6ff20.jpg",
     "static/media/welcomeImage1.jpg": "/b3nny01.github.io/NoteX/static/media/welcomeImage1.0b0a7393b41da4553c27.jpg",
@@ -30,11 +30,11 @@
     "static/media/search.svg": "/b3nny01.github.io/NoteX/static/media/search.c34dd1ada9336806166b1d2827f4b827.svg",
     "static/media/expand.svg": "/b3nny01.github.io/NoteX/static/media/expand.fe9c3a21260ae50b3209f7e65ec4cf88.svg",
     "main.52f10676.css.map": "/b3nny01.github.io/NoteX/static/css/main.52f10676.css.map",
-    "main.20127a35.js.map": "/b3nny01.github.io/NoteX/static/js/main.20127a35.js.map",
+    "main.4a21d32c.js.map": "/b3nny01.github.io/NoteX/static/js/main.4a21d32c.js.map",
     "453.8ab44547.chunk.js.map": "/b3nny01.github.io/NoteX/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52f10676.css",
-    "static/js/main.20127a35.js"
+    "static/js/main.4a21d32c.js"
   ]
 }
