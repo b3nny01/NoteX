@@ -106,7 +106,14 @@ npm start
 ```
 This will start a Node server at `localhost:3000/notex_frontend`. Open this link in Chrome to view the NoteX homepage.
 
+### Online Demo
+A working demo of the frontend is online at [https://b3nny01.github.io/NoteX/](https://b3nny01.github.io/NoteX/)
+
+[!NOTE]
+The online demo only comprehends the frontend, for this reason every backend request (sign in, login, notebook creation, ...) is simulated and produces no real modification
+
 ## Credits
 The project has been developed by:
 
 * [b3nny01](https://github.com/b3nny01/)
+* [aledeni](https://github.com/aledeni)
