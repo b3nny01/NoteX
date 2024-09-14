@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+    <!-- Database connection settings -->
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://db:3306/NOTEX?useSSL=false</property>
+    
+    <property name="connection.username">DEV</property>
+    <property name="connection.password">change_dev_psw</property>
+    <property name="connection.pool_size">1</property>
+     <property name="connection.autocommit">false</property>
+    
+    <!-- <property name="dialect">org.hibernate.dialect.DB2Dialect</property> -->
+    <!-- <property name="dialect">org.hibernate.dialect.HSQLDialect</property> -->
+	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    
+    <property name="current_session_context_class">thread</property>
+    <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+    <property name="show_sql">true</property>
+    
+    <!-- Durante l'esame non sarà ammesso l'utlizzo della proprietà 'hbm2ddl.auto' e che consente la creazione automatica dello schema -->
+    <!-- <property name="hbm2ddl.auto">create</property> -->
+	
+	<mapping resource="Administrator.hbm.xml"/>
+	<mapping resource="Assistant.hbm.xml"/>
+	<mapping resource="Notebook.hbm.xml"/>
+	<mapping resource="NotebookTag.hbm.xml"/>
+	<mapping resource="NoteTag.hbm.xml"/>
+	<mapping resource="Note.hbm.xml"/>
+	<mapping resource="SignedUser.hbm.xml"/>
+	<mapping resource="Report.hbm.xml"/>
+	<mapping resource="Review.hbm.xml"/>
+
+	
+  </session-factory>
+</hibernate-configuration>

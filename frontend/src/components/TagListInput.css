@@ -17,14 +17,13 @@
     flex-direction: row;
 
     /*borders and spaces*/
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .tag-list-input > .tag-input{
     /*size*/
     width: 100%;
-    
     /*borders and spaces*/
-    margin: 5px 0px 5px 0px;
+    margin-bottom: 0.5rem;
 }
 

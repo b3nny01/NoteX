@@ -9,7 +9,7 @@
 
     /*size*/
     width: auto;
-    height: auto;
+    height: 3rem;
 
     /*borders and spaces*/
     border-radius: 3px;
@@ -17,11 +17,17 @@
 }
 
 .nav-bar-div > .option{
+     /*display*/
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     
     /*size*/
-    width: 75px;
-    height: 30px;
+    height: 3rem;
 
     /*borders and spaces*/
+    padding: 0rem 1rem 0rem 1rem;
     border-right: 1px solid #F77F00;
 
     /*text*/
@@ -40,19 +46,6 @@
     display: none;
 }
 
-.nav-bar-div > .hamburger-label > .icon-div{
-    /*size*/
-    width: 30px;
-    height: 30px;
-
-    margin: auto;
-}
-
-.nav-bar-div > .hamburger-label > .icon-div > img{
-    /*size*/
-    width: 25px;
-    height: 25px;
-}
 
 .nav-bar-div > .hamburger-label > .icon-div:hover{
     /*backgorund*/
@@ -74,11 +67,11 @@
 
     /*position*/
     position: absolute;
-    right:0px;
-    top:35px;
+    right:0rem;
+    top:3rem;
 
     /*size*/
-    width: 220px;
+    width: 15rem;
     border: 1px solid #F77F00;
     border-radius: 3px;
 }
@@ -89,17 +82,21 @@
 }
 
 .nav-bar-div >  .hamburger-label > .pages-div > .page-link{
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
     /*size*/
-    width: 200px;
-    height: 30px;
+    width: 90%;
+    height: 3rem;
 
     /*border and spaces*/
     border: none;
-    padding: 10px;
+    padding-left: 10%; 
 
     /*text*/
     color: #F77F00;
-    text-align: start;
 }
 
 

@@ -17,22 +17,22 @@
     justify-content: center;
 
     /*size*/
-    height:50px;
+    height:3rem;
 
 }
 
 .position-div > .step-div > .name{
     
     /*size*/
-    min-width: 180px;
+    min-width: 10rem;
 
     /*borders and spaces*/
     border-radius: 10px;
-    margin: 10px;
+    margin: 0.5rem;
 
     /*text*/
     text-align:center;
-    font-size: 1.5em;
+    font-size: 2.5rem;
     font-style: bold;
     color: #F77F00;
 }
@@ -43,7 +43,7 @@
 
 .position-div > .step-div > .icon{
     /*size*/
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     transform: rotate(270deg);
 }

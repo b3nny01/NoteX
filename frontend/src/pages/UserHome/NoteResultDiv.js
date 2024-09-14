@@ -20,7 +20,7 @@ function NoteResultDiv(props) {
     <div className="note result-div">
       <div className="first-line">
         <IconDiv icon={icons["note"]} />
-        <div className="text nome">{note.name}</div>
+        <div className="text nome"><p>{note.name}</p></div>
         <IconButton icon={icons["review"]} onClick={()=>{onOpenReviewsModal(note)}} />
         <ScoreDiv score={note.score} />
         <a

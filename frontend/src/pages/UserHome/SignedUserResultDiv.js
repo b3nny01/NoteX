@@ -32,7 +32,7 @@ function SignedUserResultDiv(props) {
     <div className="signed-user result-div">
       <div className="first-line">
         <IconDiv icon={icons["user"]} />
-        <div className="text username">{signedUser.username}</div>
+        <div className="text username"><p>{signedUser.username}</p></div>
         <PunteggioDiv punteggio={signedUser.score} />
         <ExpandCheckBox />
       </div>

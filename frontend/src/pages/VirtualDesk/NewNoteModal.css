@@ -35,8 +35,9 @@
   position: relative;
 
   /*size*/
-  width: 500px;
-  height: 500px;
+  width: auto;
+  height: 60vh;
+  aspect-ratio: 1;
 
   /*borders and spaces*/
   border-radius: 10px;
@@ -45,8 +46,8 @@
 .new-note-modal-background.shown > .new-note-modal > .icon-button.cross{
   /*position*/
   position: absolute;
-  top:3px;
-  left: 3px;
+  top:1vh;
+  left: 1vh;
 }
 
 .new-note-modal-background.shown > .new-note-modal > .title{
@@ -56,7 +57,7 @@
   font-weight: bold;
 
   /*border and spaces*/
-  margin:20px 0 20px;
+  margin:2.5vh;
 
 }
 
@@ -69,8 +70,9 @@
   overflow: scroll;
 
   /*size*/
-  width: 400px;
-  height: 400px;
+  width: auto;
+  height: 80%;
+  aspect-ratio: 1;
 
 }
 
@@ -79,24 +81,24 @@
   display: none;
 }
 
-.new-note-modal-background.shown > .new-note-modal > .new-note-form > .etichette-group-input{
+.new-note-modal-background.shown > .new-note-modal > .new-note-form > .tag-list-input{
   /*size*/
-  height: 280px;
+  height: 20vh
 }
 
 .new-note-modal-background.shown > .new-note-modal > .new-note-form > input[type="text"]{
  
   /*size*/
-  height:30px;
+  height:5vh;
   width: 100%;
 
   /*text*/
   font-size: 1em;
   text-align: center;
-  text-indent: 35px;
+  text-indent: 5vh;
 
   /*borders and spaces*/
-  margin: 10px 0px 10px 0px;
+  margin: 0.5vh;
   border-radius: 3px;
   border: none;
   padding: 0px;
@@ -115,17 +117,20 @@
   text-indent: 35px;
 
   /*size*/
-  height:30px;
+  height:5vh;
   width: 100%;
 
   /*borders and spaces*/
-  margin: 10px 0px 10px 0px;
+  margin: 0.5vh;
   border-radius: 3px;
   border: none;
   padding: 0px;
   outline: solid black 1px;
   outline-offset: -1px;
 }
+
+
+
 
 .new-note-modal-background.shown > .new-note-modal > .new-note-form > input[type="file"]{
 
@@ -136,11 +141,11 @@
   text-indent: 35px;
 
   /*size*/
-  height:30px;
+  height:5vh;
   width: 100%;
 
   /*borders and spaces*/
-  margin: 10px 0px 10px 0px;
+  margin: 0.5vh;
 }
 
 

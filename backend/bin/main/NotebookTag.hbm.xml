@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="domain.NotebookTag"
+		table="NOTEBOOK_TAGS">
+		<id name="id" column="Id">
+			<generator class="identity" />
+		</id>
+		<property name="name" column="Name" />
+		<property name="value" column="Value" />
+		<many-to-one class="domain.Notebook"
+			name="notebook" >
+			<column name="NotebookId" />
+		</many-to-one>
+	</class>
+</hibernate-mapping>

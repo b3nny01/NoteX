@@ -9,40 +9,25 @@
 
 }
 
-.search-feature.inactive{
-    height: 36px;
-}
-
-.search-feature.active{
-    height: 60vh;
-}
 
 
 .search-feature > .search-form{
     position: relative;
     width: 100%;
+    height: 30vh;
     overflow: hidden;
     transition:all 1s;
 }
 
-.search-feature.inactive > .search-form{
-    max-width: 500px;
-    height: 30px;
-}
-
-.search-feature.active > .search-form{
-    height:20vh;
-    max-width: 700px;
-}
 
 
 .search-feature > .search-form > .search-bar{
     position: absolute;
     left:0px;
     top: 0px;
-    height:30px;
+    height:5vh;
     width: 100%;
-    text-indent: 35px;
+    text-indent: 5vh;
     font-size: 1em;
     border-radius: 3px;
     padding: 0px;
@@ -53,14 +38,14 @@
 
 .search-feature > .search-form > .search.icon-button{
     position: absolute;
-    left:0px;
-    top: 0px;
+    left:0vw;
+    top: 0vh;
 }
 
 .search-feature > .search-form > .cross.icon-button{
     position: absolute;
-    right:0px;
-    top: 0px;
+    right:0vw;
+    top: 0vh;
 }
 
 .search-feature.inactive > .search-form > .cross.icon-button{
@@ -69,32 +54,30 @@
 
 .search-feature > .search-form > .search-type-radio-div{
     position: absolute;
-    top: 35px;
-    right: 0px;
+    top: 5.5vh;
+    right: 0vw;
 }
 
 .search-feature > .search-form > .tag-list-input{
     position: absolute;
     width: 100%;
-    top: 70px;
-    left: 0px;
+    top: 11vh;
+    left: 0vw;
 }
 
 .search-feature > .search-results-div {
     transition: all 1s;
     width:100%;
+    height: 30vh;
+    overflow: scroll;
 }
 
 .search-feature.inactive > .search-results-div {
-    height: 0px;
-    max-width: 500px;
-    overflow: hidden;
+    visibility: hidden;
 }
 
 .search-feature.active > .search-results-div {
-    height:40vh;
-    max-width: 700px;
-    overflow: scroll;
+    visibility: visible;
 }
 
 .search-feature > .search-results-div::-webkit-scrollbar {

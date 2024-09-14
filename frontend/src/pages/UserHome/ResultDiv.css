@@ -14,7 +14,7 @@
     position: relative;
 
     /*borders and spaces*/
-    margin-top: 10px;
+    margin-bottom: 0.5vh;
     border-radius: 3px;
     border: none;
     padding: 0px;
@@ -32,7 +32,7 @@
 
     /*size*/
     width: 100%;
-    height: 30px;
+    height: 5vh
 }
 
 .result-div > .first-line > .icon-div{
@@ -43,16 +43,21 @@
 }
 
 .result-div > .first-line > .text{
+    /*display*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     /*position*/
     position: absolute;
     top:0px;
-    left: 30px;
+    left: 5vh;
 
     /*size*/
-    height: 30px;
+    height: 4vh;
 
     /*borders and spaces*/
-    padding: 5px;
+    padding: 0.5vh;
     
 }
 
@@ -60,7 +65,7 @@
     /*position*/
     position: absolute;
     top:0px;
-    right: 30px;
+    right: 5vh;
 }
 
 .result-div > .expansible-box{
@@ -91,7 +96,7 @@
     height: auto;
 
     /*border and spaces*/
-    padding: 5px 0px 5px 0px;
+    padding: 0.5vw 0 0.5vw 0px;
 
 }
 
@@ -100,5 +105,5 @@
     width: 90%;
 
     /*borders and spaces*/
-    margin: 5px 5% 5px 5%;
+    margin: 0.5vw 5% 0.5vw 5%;
 }

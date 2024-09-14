@@ -1,20 +1,30 @@
-.review-div{
-    background-color: field;
-    width: 80%;
-    height: auto;
+.review-div {
+  background-color: field;
+  width: 80%;
+  height: auto;
 
-    border-radius: 10px;
-    padding: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.review-div > .first-line{
-    display: flex;
-    flex-direction: row;
+.review-div > .first-line {
+  display: flex;
+  flex-direction: row;
+  height: 4vh;
 }
 
-.review-div > .first-line > .username{
-    font-size: 20px;
-    padding: 3px;
-    padding-right:10px;
+.review-div > .first-line > .username {
+  /*display*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  height: 4vh;
+
+
+  padding: 0.5vh;
+}
+
+.review-div > .text{
+    padding-left: 2.5vh;
 }

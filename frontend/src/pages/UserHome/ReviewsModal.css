@@ -35,8 +35,9 @@
   position: relative;
 
   /*size*/
-  width: 500px;
-  height: 500px;
+  width: auto;
+  height: 60vh;
+  aspect-ratio: 1;
 
   /*borders and spaces*/
   border-radius: 10px;
@@ -45,8 +46,8 @@
 .reviews-modal-background.shown > .reviews-modal > .icon-button.cross{
   /*position*/
   position: absolute;
-  top:3px;
-  left: 3px;
+  top:1vh;
+  left: 1vh;
 }
 
 .reviews-modal-background.shown > .reviews-modal > .title{
@@ -56,6 +57,6 @@
   font-weight: bold;
 
   /*border and spaces*/
-  margin:20px 0 20px;
+  margin:5vh;
 
 }

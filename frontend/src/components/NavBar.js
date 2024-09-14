@@ -8,7 +8,7 @@ import AuthContext from "../context/AuthContext";
 import { useContext, useState } from "react";
 
 // data
-import pages from "../data/pages"
+import pages from "../data/pages";
 import icons from "../data/icons";
 
 // components
@@ -30,7 +30,9 @@ function NavBar(props) {
       <Link
         to={pages[k].path}
         key={pages[k].name}
-        className={"page-link " + (pages[k].name === currentPage ? "current" : "")}
+        className={
+          "page-link " + (pages[k].name === currentPage ? "current" : "")
+        }
       >
         {pages[k].name}
       </Link>
@@ -42,17 +44,17 @@ function NavBar(props) {
     <div className="nav-bar-div">
       {!authContextValue.userSession.authed && (
         <Link to={pages["search"].path} className="option">
-          {pages["search"].name}
+          <p>{pages["search"].name}</p>
         </Link>
       )}
       {!authContextValue.userSession.authed && (
         <Link to={pages["signedUserLogin"].path} className="option">
-          {pages["signedUserLogin"].name}
+          <p>{pages["signedUserLogin"].name}</p>
         </Link>
       )}
       {!authContextValue.userSession.authed && (
-        <Link className="option" to={pages["registration"].path}>
-          {pages["registration"].name}
+        <Link to={pages["registration"].path} className="option">
+          <p>{pages["registration"].name}</p>
         </Link>
       )}
       {authContextValue.userSession.authed && (
@@ -76,14 +78,13 @@ function NavBar(props) {
           onClick={() => {
             api.logout.fetch([]).then((res) => {
               res.json().then((apiRes) => {
-                if (!apiRes.ok)
-                  alert(apiRes.msg);
+                if (!apiRes.ok) alert(apiRes.msg);
                 authContextValue.updateSession();
               });
             });
           }}
         >
-          logout
+        <p>logout</p>
         </div>
       )}
     </div>

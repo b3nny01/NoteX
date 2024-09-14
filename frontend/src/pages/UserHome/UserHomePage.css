@@ -25,7 +25,7 @@
 }
 
 
-.user-home-page > .right-div{
+.user-home-page {
    
     /*background*/
     background-color: #003049;
@@ -34,45 +34,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 
     /*position*/
     position: absolute;
-    top: 0px;
-    left:45vw;
+    top: 0vh;
+    left: 0vw;
     
     /*size*/
-    width: 55vw;
+    width: 100vw;
     height: 100vh;
-
-    /*borders and spaces*/
-    border-radius: 30px 0px 0px 30px;
-
-    /*animations*/
-    transition: all 1s;
 }
 
-.user-home-page > .right-div > .nav-bar-div{
+.user-home-page  > .nav-bar-div{
     position: absolute;
-    top:30px;
-    right: 30px;
+    top:1vh;
+    right: 1vw;
 }
 
-.user-home-page > .right-div > .logo{
-    margin: 25px 0px 25px 0px;
+.user-home-page  > .logo{
+    width: 60vw;
+    margin: 15vh 0vw 2vh 0vw;
 }
 
-.user-home-page > .right-div > .search-feature{
-    margin: 25px 0px 25px 0px;
-}
-
-.user-home-page > .right-div:has( > .search-feature.active ){
-    /*position*/
-    left: 0px;
-
-    /*size*/
-    width: 100%;
-
-    /*borders and spaces*/
-    border-radius: 0px;
+.user-home-page  > .search-feature{
+    margin-bottom: 2vh;
+    width: 60vw;
 }

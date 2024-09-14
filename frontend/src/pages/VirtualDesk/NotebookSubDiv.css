@@ -6,11 +6,12 @@
   justify-content: center;
 
   /*size*/
-  width: 180px;
-  height: 180px;
+  width: auto;
+  height: 25vh;
+  aspect-ratio: 1;
 
   /*borders and spaces*/
-  margin: 10px;
+  margin: 1vh 
 }
 
 .notebook-sub-div > .icon-name-div {
@@ -22,7 +23,7 @@
 
   /*size*/
   width: 100%;
-  height: 150px;
+  height: 80%;
 
   /*borders and spaces*/
   border-radius: 10px;
@@ -38,30 +39,37 @@
 
 .notebook-sub-div > .icon-name-div > .icon-img {
   /*size*/
-  width: 120px;
-  height: auto;
+  height: 70%;
+  width: auto;
+  margin: 2.5%;
 }
 
 .notebook-sub-div > .icon-name-div > .name {
   /*size*/
   max-width: 100%;
-  height: 30px;
+  height: 4vh;
+  margin: 2.5%;
 }
 
 .notebook-sub-div > .actions {
   /*display*/
-  display:flex;
   visibility: hidden;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 
   /*size*/
   width: 100%;
-  height: 30px;
+  height: 20%;
 }
 
 .notebook-sub-div:hover > .actions {
   /*display*/
   visibility: visible;
+}
+
+.notebook-sub-div:hover > .actions > a > .icon-div:hover {
+  /*background*/
+  background-color: #EAE2B7;
 }

@@ -14,14 +14,16 @@
   justify-content: center;
 
   /*size*/
-  height: 250px;
+  height: 10rem;
   width: 100%;
 }
 
 .logo > img {
   /*size*/
+  width: auto;
   height: 50%;
   aspect-ratio: 1;
+
 }
 
 .logo > div {
@@ -31,5 +33,5 @@
   /*text*/
   color: #f77f00;
   font-family: "Vivaldi Italic";
-  font-size: 5em;
+  font-size: 5rem;
 }

@@ -11,17 +11,16 @@
 
 .send-review-page > .nav-bar-div{
     position: absolute;
-    top:30px;
-    right: 30px;
+    top:1vh;
+    right: 1vw;
 }
 
 .send-review-page > .logo{
-    width: 500px;
-    margin: 10px;
+    width: 50%; 
 }
 
 .send-review-page > .send-review-feature{
-    margin:10px;
-    width: 500px;
-    height: 400px;
+    margin:2vh;
+    max-width: 600px;
+    width: 75%;
 }

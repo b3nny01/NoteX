@@ -11,17 +11,23 @@
 
 .registration-page > .nav-bar-div{
     position: absolute;
-    top:30px;
-    right: 30px;
+    top:1vh;
+    right: 1vw;
 }
 
 .registration-page > .logo{
-    width: 500px;
-    margin: 10px;
+    height: 25vh;
+    position: absolute;
+    top: 5vh; 
 }
 
 .registration-page > .registration-feature{
-    margin:10px;
-    width: 500px;
-    height: 400px;
+    margin:2vh;
+    
+    /*size*/
+    height: 60vh;
+
+    /*position*/
+    position: absolute;
+    bottom: 0vh;
 }

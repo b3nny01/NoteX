@@ -10,10 +10,10 @@ function ReviewDiv(props) {
     <div className="review-div">
       <div className="first-line">
         <IconDiv icon={icons["user"]} />
-        <div className="username">{review.reviewerUsername}</div>
+        <div className="username"><p>{review.reviewerUsername}</p></div>
         <ScoreDiv score={review.score} />
       </div>
-      <div className="text">{review.text}</div>
+      <div className="text"><p>{review.text}</p></div>
     </div>
   );
 }

@@ -5,8 +5,8 @@
     justify-content: center;
 
     /*size*/
-    width: 30px;
-    height: 30px;
+    height: 3rem;
+    width: 3rem;
 
     /*borders and spaces*/
     border-radius: 3px;
@@ -24,6 +24,6 @@
 
 .icon-button > .icon-img{
     /*size*/
-    width: 26px;
+    width: 2rem;
     height: auto;
 }

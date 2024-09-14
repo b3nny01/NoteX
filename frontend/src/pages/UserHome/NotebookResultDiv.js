@@ -32,7 +32,7 @@ function NotebookResultDiv(props) {
     <div className="notebook result-div">
       <div className="first-line">
         <IconDiv icon={icons["notebook"]} />
-        <div className="text name">{notebook.name}</div>
+        <div className="text name"><p>{notebook.name}</p></div>
         <ScoreDiv score={notebook.score} />
         <ExpandCheckBox />
       </div>
