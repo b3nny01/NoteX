@@ -14,7 +14,7 @@
     position: relative;
 
     /*borders and spaces*/
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.5rem;
     border-radius: 3px;
     border: none;
     padding: 0px;
@@ -32,14 +32,14 @@
 
     /*size*/
     width: 100%;
-    height: 5vh
+    height: 3rem
 }
 
 .result-div > .first-line > .icon-div{
     /*position*/
     position: absolute;
-    top:0px;
-    left: 0px;
+    top:0rem;
+    left: 0rem;
 }
 
 .result-div > .first-line > .text{
@@ -51,21 +51,21 @@
     /*position*/
     position: absolute;
     top:0px;
-    left: 5vh;
+    left: 3rem;
 
     /*size*/
-    height: 4vh;
+    height: 2rem;
 
     /*borders and spaces*/
-    padding: 0.5vh;
+    padding: 0.5rem;
     
 }
 
 .result-div > .first-line > .score-div{
     /*position*/
     position: absolute;
-    top:0px;
-    right: 5vh;
+    top:0rem;
+    right: 3rem;
 }
 
 .result-div > .expansible-box{
@@ -82,7 +82,7 @@
 
     /*size*/
     width:100%;
-    height:0px;
+    height:0rem;
 
     /*border and spaces*/
     border-radius: 3px;
@@ -96,7 +96,7 @@
     height: auto;
 
     /*border and spaces*/
-    padding: 0.5vw 0 0.5vw 0px;
+    padding: 0.5rem 0 0.5rem 0px;
 
 }
 
@@ -105,5 +105,5 @@
     width: 90%;
 
     /*borders and spaces*/
-    margin: 0.5vw 5% 0.5vw 5%;
+    margin: 0.5rem 5% 0.5rem 5%;
 }

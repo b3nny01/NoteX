@@ -5,7 +5,6 @@ import "./UserHomePage.css";
 import NavBar from "../../components/NavBar";
 import Logo from "../../components/Logo";
 import SearchFeature from "./SearchFeature";
-import CarouselDiv from "./CarouselDiv";
 
 function UserHomePage() {
   // render
