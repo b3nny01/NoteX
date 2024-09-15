@@ -35,8 +35,9 @@
   position: relative;
 
   /*size*/
-  width: auto;
-  height: 60vh;
+  width: 80%;
+  max-width: 600px;
+  height: auto;
   aspect-ratio: 1;
 
   /*borders and spaces*/
@@ -46,17 +47,17 @@
 .reviews-modal-background.shown > .reviews-modal > .icon-button.cross{
   /*position*/
   position: absolute;
-  top:1vh;
-  left: 1vh;
+  top:1rem;
+  left: 1rem;
 }
 
 .reviews-modal-background.shown > .reviews-modal > .title{
   /*text*/
   color:#F77F00;
-  font-size: 1.5em;
+  font-size: 2rem;
   font-weight: bold;
 
   /*border and spaces*/
-  margin:5vh;
+  margin:3rem;
 
 }

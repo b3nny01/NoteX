@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     /*size*/
     width: 100vw;
     height: 100vh;
@@ -11,16 +11,19 @@
 
 .send-review-page > .nav-bar-div{
     position: absolute;
-    top:1vh;
-    right: 1vw;
+    top: 1rem;
+    right: 1rem;
 }
 
 .send-review-page > .logo{
-    width: 50%; 
+    margin: 6rem 0rem 3rem 0rem;
 }
 
-.send-review-page > .send-review-feature{
-    margin:2vh;
+.send-review-page > .send-review-feature{    
+    /*size*/
+    width: 80%;
     max-width: 600px;
-    width: 75%;
+    height: 30rem;
+
+
 }

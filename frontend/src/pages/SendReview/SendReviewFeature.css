@@ -5,24 +5,24 @@
     align-items: center;
     justify-content: start;
     width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
+    max-width: 700px;
+    height: fit-content;
     padding: 0% 0% 3% 0%;
     border-radius: 10px;
 }
 
 .send-review-feature > .title{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
-    margin: 1vh;
+    margin: 2rem;
 }
 
 .send-review-feature > .send-review-form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 80%;
+    justify-content: start;
+    width: 100%;
 }
 
 .send-review-feature > .send-review-form > .id-nota-div{
@@ -30,15 +30,15 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    min-width:  80%;
-    max-width: 100%;
+    width:  80%;
 }
 
 .send-review-feature > .send-review-form > .id-nota-div > input{
     max-width: 30%;
+    height: 3rem;
     text-align: center;
-    font-size: 1em;
-    margin: 1vh;
+    font-size: 1rem;
+    margin: 0.5rem;
     border-radius: 3px;
     padding: 0px;
     border: none;
@@ -46,21 +46,21 @@
 
 .send-review-feature > .send-review-form > .id-nota-div > label{
     max-width: 3%;
-    height:30px;
+    height: 3rem;
     text-align: center;
-    font-size: 1em;
-    margin: 1vh;
+    font-size: 2rem;
+    margin: 0.5rem;
     border-radius: 3px;
     border: none;
 
 }
 
 .send-review-feature > .send-review-form > input{
-    height:30px;
-    width: 100%;
+    width: 80%;
+    height: 3rem;
     text-align: center;
-    font-size: 1em;
-    margin: 1vh;
+    font-size: 1rem;
+    margin-bottom: 1rem;
     border-radius: 3px;
     padding: 0px;
     border: none;
@@ -69,11 +69,11 @@
 .send-review-feature > .send-review-form > input[type="submit"]{
     
     background-color: #F77F00;
-    height:30px;
-    width: 100%;
+    width: 80%;
+    height: 3rem;
     text-align: center;
-    font-size: 1em;
-    margin: 1vh;
+    font-size: 1rem;
+    margin-bottom: 1rem;
     border-radius: 3px;
     padding: 0px;
     border: none;
@@ -82,5 +82,10 @@
 
 .send-review-feature > .send-review-result-div{
     width: 80%;
-    margin: 1vh;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.send-review-feature > .send-review-result-div > .page-link{
+    color: #F77F00;
 }

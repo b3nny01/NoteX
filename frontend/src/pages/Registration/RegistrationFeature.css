@@ -12,9 +12,9 @@
 }
 
 .registration-feature > .title{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
-    margin: 3vh;
+    margin: 2rem;
 }
 
 .registration-feature > .registration-form{
@@ -25,21 +25,12 @@
     width: 100%;
 }
 
-.registration-feature > .registration-form > input[type="text"]{
+.registration-feature > .registration-form > input{
     width: 80%;
+    height: 3rem;
     text-align: center;
-    font-size: 1em;
-    margin: 1vh;
-    border-radius: 3px;
-    padding: 0px;
-    border: none;
-}
-
-.registration-feature > .registration-form > input[type="password"]{
-    width: 80%;
-    text-align: center;
-    font-size: 1em;
-    margin: 1vh;
+    font-size: 1rem;
+    margin-bottom: 1rem;
     border-radius: 3px;
     padding: 0px;
     border: none;
@@ -48,19 +39,13 @@
 .registration-feature > .registration-form > input[type="submit"]{
     
     background-color: #F77F00;
-    width: 80%;
-    text-align: center;
-    font-size: 1em;
-    margin: 1vh;
-    border-radius: 3px;
-    padding: 0px;
-    border: none;
     color: field;
 }
 
 .registration-feature > .registration-result-div{
     width: 80%;
-    margin: 1vh;
+    font-size: 1rem;
+    margin: 1rem;
 }
 
 .registration-feature > .registration-result-div > .page-link{

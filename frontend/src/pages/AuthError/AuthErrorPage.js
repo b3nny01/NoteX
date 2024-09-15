@@ -11,7 +11,7 @@ function AuthErrorPage() {
         <Logo/>
         <div className="message-div">
             <IconDiv icon={icons["locker"]}/>
-           <div className="message">To access this page you need to <Link className="page-link" to="/Login">login</Link> otherwise click <Link className="page-link" to="/">here</Link> to return to the home page</div> 
+           <div className="message">To access this page you need to <Link className="page-link" to="/Login">login</Link>.<br/>if not signed click <Link className="page-link" to="/">here</Link> to return to the home page</div> 
         </div>
     </div>
   )
