@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: flex-start;
     overflow: scroll;
+
+    /*size*/
+    width: 100%;
 }
 
 .tag-list-input::-webkit-scrollbar{

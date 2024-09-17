@@ -29,14 +29,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   /*position*/
   position: relative;
 
   /*size*/
-  width: auto;
-  height: 60vh;
+  width: 80%;
+  max-width: 600px;
+  height: fit-content;
   aspect-ratio: 1;
 
   /*borders and spaces*/
@@ -46,18 +47,18 @@
 .new-notebook-modal-background.shown > .new-notebook-modal > .icon-button.cross{
   /*position*/
   position: absolute;
-  top:1vh;
-  left: 1vh;
+  top:1rem;
+  left: 1rem;
 }
 
 .new-notebook-modal-background.shown > .new-notebook-modal > .title{
   /*text*/
   color:#F77F00;
-  font-size: 1.5em;
+  font-size: 2rem;
   font-weight: bold;
 
   /*border and spaces*/
-  margin:2.5vh;
+  margin:3rem;
 
 }
 
@@ -83,22 +84,22 @@
 
 .new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form > .tag-list-input{
   /*size*/
-  height: 25vh
+  width: 100%;
+  height: 10.5rem;
 }
 
 .new-notebook-modal-background.shown > .new-notebook-modal > .new-notebook-form > input[type="text"]{
  
   /*size*/
-  height:5vh;
+  height:3rem;
   width: 100%;
 
   /*text*/
-  font-size: 1em;
+  font-size: 1rem;
   text-align: center;
-  text-indent: 5vh;
 
   /*borders and spaces*/
-  margin: 0.5vh;
+  margin-bottom: 0.5rem;
   border-radius: 3px;
   border: none;
   padding: 0px;
@@ -112,21 +113,19 @@
 
   /*text*/
   color: white;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
-  text-indent: 35px;
+  text-align: center;
 
   /*size*/
-  height:5vh;
+  height:3rem;
   width: 100%;
 
   /*borders and spaces*/
-  margin: 0.5vh;
+  margin-bottom: 0.5rem;
   border-radius: 3px;
   border: none;
   padding: 0px;
   outline: solid black 1px;
   outline-offset: -1px;
 }
-
-

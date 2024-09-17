@@ -7,7 +7,7 @@
 
   /*size*/
   width: auto;
-  height: 25vh;
+  height: 12rem;
   aspect-ratio: 1;
 
   /*borders and spaces*/
@@ -47,7 +47,7 @@
 .note-sub-div > .icon-name-div > .name {
   /*size*/
   max-width: 100%;
-  height: 4vh;
+  height: 3rem;
   margin: 2.5%;
 }
 
@@ -61,7 +61,7 @@
 
   /*size*/
   width: 100%;
-  height: 20%;
+  height: 3rem;
 }
 
 .note-sub-div:hover > .actions {
