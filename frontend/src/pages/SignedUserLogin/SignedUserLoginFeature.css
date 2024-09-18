@@ -45,8 +45,9 @@
     width: 80%;
     margin: 1rem;
     font-size: 1rem;
+    text-align: center;
 }
 
-.signed-user-login-feature > .signed-user-login-result-div > .page-link{
+.signed-user-login-feature > .signed-user-login-result-div .page-link{
     color: #F77F00;
 }

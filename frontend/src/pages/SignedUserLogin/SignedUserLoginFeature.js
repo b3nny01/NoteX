@@ -22,16 +22,16 @@ function SignedUserLoginFeature() {
       res.json().then((apiRes) => {
         if (apiRes.ok) {
           authContextValue.updateSession()
-          setResultDiv(<div className="signed-user-login-result-div">
+          setResultDiv(<div className="signed-user-login-result-div"><p>
             Login successful, click&nbsp;
             <Link className="page-link" to={pages["virtualDesk"].path}>here</Link>
-            &nbsp;to go to your virtual desk
+            &nbsp;to go to your virtual desk</p>
           </div>)
         } else {
-          setResultDiv(<div className="signed-user-login-result-div">
+          setResultDiv(<div className="signed-user-login-result-div"><p>
             Login not successful, retry or click&nbsp;
             <Link className="page-link" to={pages["search"].path}>here</Link>
-            &nbsp;to return to search page
+            &nbsp;to return to search page</p>
           </div>)
         }
       });

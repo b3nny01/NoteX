@@ -76,8 +76,9 @@
     width: 80%;
     margin: 1rem;
     font-size: 1rem;
+    text-align: center;
 }
 
-.send-review-feature > .send-review-result-div > .page-link{
+.send-review-feature > .send-review-result-div  .page-link{
     color: #F77F00;
 }

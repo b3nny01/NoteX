@@ -32,7 +32,7 @@ function UpdateNoteModal(props) {
     <div className={combinedClass}>
       <div className="update-note-modal">
         <IconButton icon={icons["cross"]} onClick={onClose} />
-        <div className="title">note Update</div>
+        <div className="title"><p>Update Note</p></div>
         <form
           className="update-note-form"
           onSubmit={(e) => {

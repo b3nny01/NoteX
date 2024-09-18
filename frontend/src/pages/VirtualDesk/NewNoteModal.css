@@ -29,14 +29,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   /*position*/
   position: relative;
 
   /*size*/
-  width: auto;
-  height: 60vh;
+  width: 90%;
+  max-width: 600px;
+  height: fit-content;
   aspect-ratio: 1;
 
   /*borders and spaces*/
@@ -46,18 +47,19 @@
 .new-note-modal-background.shown > .new-note-modal > .icon-button.cross{
   /*position*/
   position: absolute;
-  top:1vh;
-  left: 1vh;
+  top:1rem;
+  left: 1rem;
 }
 
 .new-note-modal-background.shown > .new-note-modal > .title{
   /*text*/
   color:#F77F00;
-  font-size: 1.5em;
+  font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 
   /*border and spaces*/
-  margin:2.5vh;
+  margin:4rem 0rem 1rem 0rem;
 
 }
 
@@ -83,22 +85,22 @@
 
 .new-note-modal-background.shown > .new-note-modal > .new-note-form > .tag-list-input{
   /*size*/
-  height: 20vh
+  width: 100%;
+  height: 10.5rem;
 }
 
 .new-note-modal-background.shown > .new-note-modal > .new-note-form > input[type="text"]{
  
   /*size*/
-  height:5vh;
+  height:3rem;
   width: 100%;
 
   /*text*/
-  font-size: 1em;
+  font-size: 1rem;
   text-align: center;
-  text-indent: 5vh;
 
   /*borders and spaces*/
-  margin: 0.5vh;
+  margin-bottom: 0.5rem;
   border-radius: 3px;
   border: none;
   padding: 0px;
@@ -112,16 +114,16 @@
 
   /*text*/
   color: white;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
-  text-indent: 35px;
+  text-align: center;
 
   /*size*/
-  height:5vh;
+  height:3rem;
   width: 100%;
 
   /*borders and spaces*/
-  margin: 0.5vh;
+  margin-bottom: 0.5rem;
   border-radius: 3px;
   border: none;
   padding: 0px;
@@ -136,16 +138,16 @@
 
   /*text*/
   color: #F77F00;;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
-  text-indent: 35px;
+  text-align: center;
 
   /*size*/
-  height:5vh;
+  height:3rem;
   width: 100%;
 
   /*borders and spaces*/
-  margin: 0.5vh;
+  margin-bottom: 0.5rem;
 }
 
 

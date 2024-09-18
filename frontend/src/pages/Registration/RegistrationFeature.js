@@ -24,16 +24,16 @@ function RegistrationFeature() {
       res.json().then((apiResult) => {
         if (!apiResult.ok) {
           alert(apiResult.msg);
-          setResultDiv(<div className="registration-result-div">
+          setResultDiv(<div className="registration-result-div"><p>
             Registration not successful, retry changing username or click&nbsp;
             <Link className="page-link" to={pages["search"].path}>here</Link>
-            &nbsp;to return to search page
+            &nbsp;to return to search page</p>
           </div>)
         } else {
-          setResultDiv(<div className="registration-result-div">
+          setResultDiv(<div className="registration-result-div"><p>
             Registration successful, click&nbsp;
             <Link className="page-link" to={pages["signedUserLogin"].path}>here</Link>
-            &nbsp;to go to login
+            &nbsp;to go to login</p>
           </div>)
         }
       });

@@ -35,7 +35,7 @@
   position: relative;
 
   /*size*/
-  width: 80%;
+  width: 90%;
   max-width: 600px;
   height: fit-content;
   aspect-ratio: 1;
@@ -56,9 +56,10 @@
   color:#F77F00;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 
   /*border and spaces*/
-  margin:3rem;
+  margin:4rem 0rem 1rem 0rem;
 
 }
 

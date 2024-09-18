@@ -30,7 +30,7 @@ function UpdateNotebookModal(props) {
     <div className={ combinedClass}>
       <div className="update-notebook-modal">
         <IconButton icon={icons["cross"]} onClick={onClose}/>
-        <div className="title">Notebook Update</div>
+        <div className="title"><p>Update Notebook</p></div>
         <form className="update-notebook-form" onSubmit={(e)=>{onSubmit(index,e)}}>
           <input
             type="text"

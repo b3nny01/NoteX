@@ -8,16 +8,20 @@
 .virtual-desk-page > .header-div{
     background-color: #003049;
     width: 100vw;
-    height: 17rem;
+    height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .virtual-desk-page > .header-div > .logo{
-    height: 10rem;
+    height: 3rem;
     width: fit-content;
-    margin: 5rem 0rem 2em 0rem;
+    margin: 1rem 0rem 1rem 3rem;
+}
+
+.virtual-desk-page > .header-div > .logo > div{
+    font-size: 1.5rem;
 }
 
 
@@ -32,6 +36,6 @@
     background-color: white;
     /*size*/
     width: 100vw;
-    height: calc(100vh - 17rem);
+    height: calc(100vh - 5rem);
 }
 

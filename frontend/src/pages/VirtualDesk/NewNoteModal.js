@@ -31,7 +31,7 @@ function NewNoteModal(props) {
     <div className={ combinedClass}>
       <div className="new-note-modal">
         <IconButton icon={icons["cross"]} onClick={onClose}/>
-        <div className="title">Note Creation</div>
+        <div className="title"><p>Note Creation</p></div>
         <form className="new-note-form" onSubmit={onSubmit}>
           <input
             type="text"

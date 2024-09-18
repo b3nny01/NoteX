@@ -35,11 +35,11 @@ function SendReviewFeature() {
       res.json().then((apiRes) => {
         if (!apiRes.ok) {
           alert(apiRes.msg);
-          setResultDiv(<div className="send-review-result-div">Something has gone wrong</div>)
+          setResultDiv(<div className="send-review-result-div"><p>Something has gone wrong</p></div>)
         } else {
-          setResultDiv(<div className="send-review-result-div">Review sent, click&nbsp;
+          setResultDiv(<div className="send-review-result-div"><p>Review sent, click&nbsp;
             <Link to={pages["search"].path}>here</Link>
-            &nbsp;to return to search page</div>)
+            &nbsp;to return to search page</p></div>)
         }
       })
     });
@@ -103,8 +103,8 @@ function SendReviewFeature() {
           }}
         />
         <input type="submit" name="submit" value="Send Review" />
-        {resultDiv}
       </form>
+      {resultDiv}
     </div>
   );
 }
