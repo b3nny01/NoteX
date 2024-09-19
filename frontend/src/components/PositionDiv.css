@@ -22,10 +22,6 @@
 }
 
 .position-div > .step-div > .name{
-    
-    /*size*/
-    min-width: 10rem;
-
     /*borders and spaces*/
     border-radius: 10px;
     margin: 0.5rem;

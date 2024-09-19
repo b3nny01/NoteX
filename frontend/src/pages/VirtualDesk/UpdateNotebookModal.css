@@ -59,8 +59,12 @@
   text-align: center;
 
   /*border and spaces*/
-  margin:4rem 0rem 1rem 0rem;
+  margin:1.5rem 0rem 1.5rem 0rem;
 
+}
+
+.update-notebook-modal-background.shown > .update-notebook-modal > .title > p{
+  margin-block: 0rem;
 }
 
 .update-notebook-modal-background.shown > .update-notebook-modal > .update-notebook-form{

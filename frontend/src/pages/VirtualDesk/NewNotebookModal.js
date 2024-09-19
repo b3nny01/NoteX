@@ -29,7 +29,7 @@ function NewNotebookModal(props) {
     <div className={ combinedClass}>
       <div className="new-notebook-modal">
         <IconButton icon={icons["cross"]} onClick={onClose}/>
-        <div className="title"><p>Notebook Creation</p></div>
+        <div className="title"><p>New Notebook</p></div>
         <form className="new-notebook-form" onSubmit={onSubmit}>
           <input
             type="text"

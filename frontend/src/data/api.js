@@ -1,7 +1,7 @@
 import API from "../utils/API";
 
-const ip="192.168.197.235"
-//const ip="localhost"
+//const ip="192.168.1.2"
+const ip="localhost"
 const port="8080"
 
 const APIs = {
