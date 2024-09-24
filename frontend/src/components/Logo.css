@@ -18,6 +18,17 @@
   width: 100%;
 }
 
+@media screen and (max-width:700px) {
+  .logo{
+    height: 6rem;
+  }
+
+  .logo > div {
+    font-size: 3rem;
+  }
+  
+}
+
 .logo > img {
   /*size*/
   width: auto;

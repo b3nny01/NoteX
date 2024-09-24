@@ -7,6 +7,12 @@
     /*size*/
     width: 100vw;
     height: 100vh;
+
+    overflow: scroll;
+}
+
+.send-review-page::-webkit-scrollbar {
+    display: none;
 }
 
 .send-review-page > .nav-bar-div{

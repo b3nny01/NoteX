@@ -7,9 +7,9 @@ import icons from "../../data/icons";
 
 // components
 import IconDiv from "../../components/IconDiv";
-import PunteggioDiv from "../../components/ScoreDiv";
 import ExpandCheckBox from "./ExpandCheckBox";
 import NotebookResultDiv from "./NotebookResultDiv";
+import ScoreDiv from "../../components/ScoreDiv";
 
 function SignedUserResultDiv(props) {
   // parameters
@@ -33,7 +33,7 @@ function SignedUserResultDiv(props) {
       <div className="first-line">
         <IconDiv icon={icons["user"]} />
         <div className="text username"><p>{signedUser.username}</p></div>
-        <PunteggioDiv punteggio={signedUser.score} />
+        <ScoreDiv score={signedUser.score} />
         <ExpandCheckBox />
       </div>
       <div className="notebooks expansible-box">

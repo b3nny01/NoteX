@@ -6,12 +6,11 @@
   justify-content: center;
 
   /*size*/
-  width: auto;
+  width: 10rem;
   height: 12rem;
-  aspect-ratio: 1;
 
   /*borders and spaces*/
-  margin: 1vh 
+  margin: 0.5rem 
 }
 
 .note-sub-div > .icon-name-div {

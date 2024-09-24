@@ -7,6 +7,12 @@
     /*size*/
     width: 100vw;
     height: 100vh;
+
+    overflow: scroll;
+}
+
+.auth-error-page::-webkit-scrollbar {
+    display: none;
 }
 
 .auth-error-page > .logo{

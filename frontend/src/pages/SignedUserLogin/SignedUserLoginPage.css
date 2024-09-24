@@ -7,6 +7,12 @@
     /*size*/
     width: 100vw;
     height: 100vh;
+
+    overflow: scroll;
+}
+
+.signed-user-login-page::-webkit-scrollbar {
+    display: none;
 }
 
 .signed-user-login-page > .nav-bar-div{

@@ -1,7 +1,6 @@
 body{
   margin:0px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 2.5vh;/*min(40px,2.5vh);*/
   overflow: hidden
 }
 
