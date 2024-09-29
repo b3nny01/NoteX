@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import api from "./data/api";
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <AuthContext.Provider value={authContextValue}>
-      <BrowserRouter basename="notex_frontend">
+      <HashRouter basename="/" >
         <Routes>
           <Route index element={<UserHomePage />} />
           <Route
@@ -114,7 +114,7 @@ function App() {
           <Route path="/Registration" element={<RegistrationPage />} />
           <Route path="/AuthError" element={<AuthErrorPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </AuthContext.Provider>
   );
 }
