@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NoteX/static/css/main.84369afa.css",
-    "main.js": "/NoteX/static/js/main.b4d58b89.js",
-    "static/js/453.80304955.chunk.js": "/NoteX/static/js/453.80304955.chunk.js",
+    "main.js": "/NoteX/static/js/main.23ef27e8.js",
+    "static/js/453.750b616b.chunk.js": "/NoteX/static/js/453.750b616b.chunk.js",
     "static/media/VIVALDII.woff": "/NoteX/static/media/VIVALDII.f6970635f412e6106ae5.woff",
     "static/media/assistente.svg": "/NoteX/static/media/assistente.3ff4d133ff668a7bbc09ac9980ae7687.svg",
     "static/media/addSquare.svg": "/NoteX/static/media/addSquare.d0b200dbad758a36986d5152e7d42430.svg",
@@ -27,11 +27,11 @@
     "static/media/search.svg": "/NoteX/static/media/search.c34dd1ada9336806166b1d2827f4b827.svg",
     "static/media/expand.svg": "/NoteX/static/media/expand.fe9c3a21260ae50b3209f7e65ec4cf88.svg",
     "main.84369afa.css.map": "/NoteX/static/css/main.84369afa.css.map",
-    "main.b4d58b89.js.map": "/NoteX/static/js/main.b4d58b89.js.map",
-    "453.80304955.chunk.js.map": "/NoteX/static/js/453.80304955.chunk.js.map"
+    "main.23ef27e8.js.map": "/NoteX/static/js/main.23ef27e8.js.map",
+    "453.750b616b.chunk.js.map": "/NoteX/static/js/453.750b616b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84369afa.css",
-    "static/js/main.b4d58b89.js"
+    "static/js/main.23ef27e8.js"
   ]
 }
