@@ -5,7 +5,7 @@
 ## Introduction
 
 NoteX is a web application designed as part of a Software Engineering course. Its goal is to provide a social platform where students can freely share their notes.<br/>
-<!--A working demo of the frontend is online at [https://b3nny01.github.io/NoteX/](https://b3nny01.github.io/NoteX/)-->
+A working demo of the frontend is online at [https://b3nny01.github.io/NoteX/](https://b3nny01.github.io/NoteX/)
 
 ## Development Process
 
@@ -48,13 +48,10 @@ We also modeled the concept of Reports, where users can report others, and Assis
 
 NoteX follows a three-layer architecture:
 
-1. **Client**: Built with React, the frontend interacts with the server through REST-inspired APIs. We used the create-react-app workflow, with a Node intermediary server between the frontend and the Java backend.
+1. **Client**: Built with React, the frontend interacts with the server through REST-inspired APIs. We used the create-react-app workflow, with a Node intermediary server.
+During the frontend development we used a mock version of the APIs, these mock APIs are the same used in the prototype deployed on github-pages 
 2. **Server**: The backend is powered by Java EE, with APIs organized into groups (e.g., registration, loginAndAuth, user management). Each group is managed by a servlet that delegates business logic to a controller. Controllers retrieve domain classes via Hibernate, execute methods, and persist changes.
 3. **Persistence**: Persistence is managed by an RDBMS for domain-related data (e.g., user info, notebook names) and a web server for note files. This hybrid approach was chosen for simplicity and efficiency.
-
-**Development Architecture**:
-
-<img src="_readmeImgs_/devArchitecture.png" width="600px">
 
 **Release Architecture**:
 
@@ -72,7 +69,8 @@ To simplify deployment, NoteX uses Gradle (v8.9, or `gradlew`), npm (v9.2.0), No
 
 ### Release Architecture
 
-To test the release architecture of the prototype, navigate to the project folder and run:
+To test the release architecture of the prototype,
+open the `frontend/src/data/api.js` file and **change the ip variable with your ip address**, then navigate to the project folder and run:
 ```bash
 ./gradlew deploy
 ```
@@ -83,37 +81,31 @@ This task will:
 * Build the frontend in the build folder using npm.
 * Create and activate new application containers using Docker Compose.
 
-Then, open Chrome and go to `localhost:8080/notex_frontend`, which should display the following screen:
+Then, open Chrome and go to `<your_ip>:8080/notex_frontend`, which should display the following screen:
 
 <img src="_readmeImgs_/homeScreen.png" width="600px">
 
-### Development Architecture
-To test the development architecture, run:
-
-```bash
-./gradlew deployBackend
+### Frontend Development
+To test the frontend development architecture open the `frontend/src/data/api.js` file and **change the APIs variable** at the end of the file from 
+```javascript
+const APIs=APIs_REAL
 ```
-
-This task will:
-
-* Remove previous NoteX-related Docker containers.
-* Generate the backend notex_backend.war using Gradle in the backend/build/libs folder.
-* Create and activate new application containers using Docker Compose.
-
-Next, open a terminal in the frontend folder and run:
-
+to
+```javascript
+const APIs=APIs_MOCK
+```
+Then open a terminal in the `frontend` folder and run:
 ```bash
 npm start
 ```
 This will start a Node server at `localhost:3000/notex_frontend`. Open this link in Chrome to view the NoteX homepage.
 
-<!--
 ### Online Demo
 A working demo of the frontend is online at [https://b3nny01.github.io/NoteX/](https://b3nny01.github.io/NoteX/)
 
 > [!NOTE]
 > The online demo only comprehends the frontend, for this reason every backend request (sign in, login, notebook creation, ...) is simulated and produces no real modification
--->
+
 ## Credits
 The project has been developed by:
 

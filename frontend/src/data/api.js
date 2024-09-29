@@ -5,7 +5,7 @@ import APIResultMock from "../utils/APIResultMock";
 import usersMock from "../utils/usersMock";
 
 // real APIs
-const ip="localhost"
+const ip="192.168.1.2" // insert your IP here
 const port="8080"
 
 const APIs_REAL = {
@@ -271,8 +271,8 @@ const APIs_MOCK = {
 
 
 
-// const APIs = APIs_REAL 
-const APIs = APIs_MOCK
+const APIs = APIs_REAL 
+//const APIs = APIs_MOCK
 
 
 
